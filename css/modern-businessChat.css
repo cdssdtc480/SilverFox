@@ -1,0 +1,292 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+
+@media (min-width: 381px) {
+   
+	
+.card-img-top{
+	height:370px;
+	width:729px;
+}
+
+.img-fluid-rounded-mb-4 {
+	display: block;
+	margin: auto;
+	width: 50%;
+
+}
+
+.img-fluid-rounded-mb4
+{
+	display: block;
+	margin: auto;
+	height: 600px;
+	width: 1000px;
+}
+	
+.icon{
+	margin: 20px auto;
+	width: 600px;
+	vertical-align: middle;
+	
+
+}
+
+.icon a{
+	display: inline;
+	
+}
+
+
+}
+
+@media (max-width: 380px){
+
+.img-fluid-rounded-mb-4 {
+	display: list-item;
+	margin: auto;
+	width: 50%;
+
+}
+
+.img-fluid-rounded-mb4 {
+	display: none;
+}
+
+.icon{
+	margin: 20px auto;
+	width: 600px;
+	vertical-align: middle;
+
+}
+
+.icon a{
+	display: list-item;
+	
+}
+	
+}
+
+@media (max-width: 992px) {
+	.input-group {
+		display:none;
+	}
+	.logo-pic {
+		display:none;
+	}
+}
+
+
+
+.navbar-brand{
+	font-family:Hobo Std;
+	font-style:italic;
+	padding:0;
+	margin:0;
+}
+
+.logo-pic {
+	height:4.5rem;
+}
+
+.nw li a{
+	margin-top:10%;
+}
+
+.op li a{
+	margin-top: 10%;
+}
+
+.breadcrumb{
+	margin-bottom: 40px;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+}
+
+.carousel-item1{
+	height: 85vh;
+	width: 90vw;
+	background: no-repeat center center scroll;
+	position: absolute;
+}
+
+.row{
+	
+	margin-top: 10px;
+} 
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.container .my-4 .logo-text {
+	width:8.5em;
+}
+
+.dropdown-menu-dropdown-menu-right{
+	display:none;
+	position:absolute;
+	background: #f1f1f1;
+	border-radius: 2%;
+}
+
+.dropdown-menu-dropdown-menu-right a:hover{
+	 background-color: #D3D3D3;
+}
+
+.nw:hover .dropdown-menu-dropdown-menu-right{
+	display: block;
+}
+
+.op:hover .dropdown-menu-dropdown-menu-right{
+	display: block;
+}
+
+
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 14px sans-serif;
+	text-align: left;	
+	padding: 10px 50px;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+/* Footer right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+/* The search form */
+
+.footer-distributed form{
+	position: relative;
+}
+
+.footer-distributed form input{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+	width: 400px;
+	height: 50px;
+	padding: 18px 50px 18px 18px;
+}
+
+.footer-distributed form input:focus{
+	outline: none;
+}
+
+/* Changing the placeholder color */
+
+.footer-distributed form input::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed form input::-moz-placeholder {
+	opacity: 1;
+	color:  #5c666b;
+}
+
+.footer-distributed form input:-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+/* The magnify glass icon */
+
+.footer-distributed form i{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 16px;
+	right: 18px;
+	color: #d1d2d2;
+	font-size: 18px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed form input{
+		width: 300px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 10px;
+		text-align: center;
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		margin-top: 10px;
+		font-size: 12px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 20px;
+	}
+
+	.footer-distributed form input{
+		width: 100%;
+	}
+
+}
+
