@@ -1,0 +1,604 @@
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+	.logo-pic-text{
+		display:none; 
+	}
+	.card-img-top{
+	height:370px;
+	width:729px;
+	}
+}
+
+@media (max-width: 992px) {
+	.googlemap {
+		display:none;
+	}
+	.input-group {
+		display:none;
+	}
+	.logo-pic {
+		display:none;
+	}
+}
+
+.img-fluid-rounded-mb4
+{
+	display: block;
+	margin: auto;
+	height: 600px;
+	width: 1000px;
+}
+
+.navbar-brand{
+	font-family:Hobo Std;
+	font-style:italic;
+	padding:0;
+	margin:0;
+}
+
+
+.padding-top {
+	padding-top:40px;
+}
+
+.logo-pic {
+	height:4.5rem;
+}
+
+.breadcrumb{
+	margin-bottom: 40px;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item1{
+	height: 85vh;
+	width: 90vw;
+	background: no-repeat center center scroll;
+}
+
+.row{
+	
+	margin-top: 30px;
+} 
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.container .my-4 .logo-text {
+	width:8.5em;
+}
+
+.dropdown-menu-dropdown-menu-right{
+	display:none;
+	position:absolute;
+	background: #f1f1f1;
+	border-radius: 2%;
+}
+
+.dropdown-menu-dropdown-menu-right a:hover{
+	 background-color: #D3D3D3;
+}
+
+.nw:hover .dropdown-menu-dropdown-menu-right{
+	display: block;
+}
+
+.op:hover .dropdown-menu-dropdown-menu-right{
+	display: block;
+}
+
+.img-fluid-rounded-mb-4 {
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.su{
+	background-image: url("http://br-diningclub.com/img/slide2/people.jpg");
+	background-repeat: no-repeat;
+
+}
+
+.contact-us{
+	color:white;
+}
+
+
+
+
+.regForm{
+	color:#6a6f8c;
+	font:600 16px/18px 'Open Sans',sans-serif;
+	background-image: url('../../pictures/people.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	/*background-color: black;*/
+	height:1000px;
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.login-wrap{
+	margin:auto;
+	width:38%;
+	height:100%;
+	position:relative;
+	padding: 20px;
+}
+
+.login-html{
+	width:100%;
+	height:69%;
+	position:relative;
+	padding:40px 70px 50px 70px;
+	background:rgba(40,57,101,.9);
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	-webkit-transform:rotateY(180deg);
+	        transform:rotateY(180deg);
+	-webkit-backface-visibility:hidden;
+	        backface-visibility:hidden;
+	-webkit-transition:all .4s linear;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:19px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 12px 8px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#fff;
+	border-color:#1161ee;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	-webkit-perspective:1000px;
+	        perspective:1000px;
+	-webkit-transform-style:preserve-3d;
+	        transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:14px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:9px 15px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#aaa;
+	font-size:11px;
+}
+.login-form .group .button{
+	background:#1161ee;
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	-webkit-transition:all .2s ease-in-out 0s;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	-webkit-transform:scale(0) rotate(0);
+	        transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	top:6px;
+	right:0;
+	-webkit-transform:scale(0) rotate(0);
+	        transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+	background:#1161ee;
+}
+.login-form .group .check:checked + label .icon:before{
+	-webkit-transform:scale(1) rotate(45deg);
+	        transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	-webkit-transform:scale(1) rotate(-45deg);
+	        transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	-webkit-transform:rotate(0);
+	        transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	-webkit-transform:rotate(0);
+	        transform:rotate(0);
+}
+
+
+.icon{
+	margin: 20px auto;
+	width: 600px;
+	vertical-align: middle;
+
+}
+
+.icon a{
+	display: inline;
+	
+}
+
+
+
+.twitter {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+	width: 160px;
+	height:40px;
+	padding-top: 10px;
+    border: 0px solid #178bb6;
+    border-radius: 8px;
+    background: #992828;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1daee3), to(#1daee3));
+    background: -moz-linear-gradient(top, #1daee3, #1daee3);
+    background: linear-gradient(to bottom, #1daee3, #1daee3);
+    font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+    color: #ffffff;
+    text-decoration: none;
+	margin-right: 20px;
+}
+
+.twitter:hover,
+.twitter:focus {
+    background: #1ca4d6;
+    color: #ffffff;
+    text-decoration: none;
+}
+.twitter:active {
+    background: #1ca4d6;
+}
+.twitter:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 28px;
+    width: 29px;
+    line-height: 18px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+	padding-left: 10px;
+    top: -10px;
+    left: -18px;
+    background: url("https://i.imgur.com/2ATElSK.png") no-repeat center center #1ca4d6;
+    background-size: 23px 20px;
+	-webkit-border-radius: 8px 0px 0px 8px;
+	-moz-border-radius: 8px 0px 0px 8px;
+	-o-border-radius: 8px 0px 0px 8px;
+	-ms-border-radius: 8px 0px 0px 8px;
+	border-radius: 8px 0px 0px 8px;
+}
+.facebook {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+	width: 160px;
+	height:40px;
+	padding-top: 10px;
+    border: 0px solid #178bb6;
+    border-radius: 8px;
+    background: #3b5998;
+    font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+    color: #ffffff;
+    text-decoration: none;
+	margin-right: 20px;
+}
+.facebook:hover,
+.facebook:focus {
+    background: #37528c;
+    color: #ffffff;
+    text-decoration: none;
+}
+.facebook:active {
+    background: #1ca4d6;
+}
+.facebook:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 28px;
+    width: 29px;
+    line-height: 18px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+	padding-left: 10px;
+    top: -10px;
+    left: -10px;
+    background: url("https://i.imgur.com/0bcxkOD.png") no-repeat center center #37528c;
+    background-size: 13px 22px;
+	-webkit-border-radius: 8px 0px 0px 8px;
+	-moz-border-radius: 8px 0px 0px 8px;
+	-o-border-radius: 8px 0px 0px 8px;
+	-ms-border-radius: 8px 0px 0px 8px;
+	border-radius: 8px 0px 0px 8px;
+}
+
+
+.google {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+	width: 160px;
+	height:40px;
+	padding-top: 10px;
+    border: 0px solid #178bb6;
+    border-radius: 8px;
+    background: #d34836;
+    font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+    color: #ffffff;
+    text-decoration: none;
+}
+.google:hover,
+.google:focus {
+    background: #c74534;
+    color: #ffffff;
+    text-decoration: none;
+}
+.google:active {
+    background: #1ca4d6;
+}
+.google:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 28px;
+    width: 29px;
+    line-height: 18px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+	padding-left: 10px;
+    top: -10px;
+    left: -10px;
+    background: url("https://i.imgur.com/GxFF74f.png") no-repeat center center #c74534;
+    background-size: 22px 21px;
+	-webkit-border-radius: 8px 0px 0px 8px;
+	-moz-border-radius: 8px 0px 0px 8px;
+	-o-border-radius: 8px 0px 0px 8px;
+	-ms-border-radius: 8px 0px 0px 8px;
+	border-radius: 8px 0px 0px 8px;
+}
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;	
+	padding: 50px 60px;
+	overflow: hidden;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+/* Footer right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+/* The search form */
+
+.footer-distributed form{
+	position: relative;
+}
+
+.footer-distributed form input{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 500px;
+	padding: 18px 50px 18px 18px;
+}
+
+.footer-distributed form input:focus{
+	outline: none;
+}
+
+/* Changing the placeholder color */
+
+.footer-distributed form input::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed form input::-moz-placeholder {
+	opacity: 1;
+	color:  #5c666b;
+}
+
+.footer-distributed form input:-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+/* The magnify glass icon */
+
+.footer-distributed form i{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 16px;
+	right: 18px;
+
+	color: #d1d2d2;
+	font-size: 18px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed form input{
+		width: 300px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+		text-align: center;
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		margin-top: 10px;
+		font-size: 12px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 20px;
+	}
+
+	.footer-distributed form input{
+		width: 100%;
+	}
+
+}
+
+table {
+	border: 2px solid black;
+}
+
+td {
+	border: 1px solid black;
+	padding: 12px;
+	margin: 12px;
+}
+
+.card-text{
+	text-indent: 2.5em;
+}
+
+.tbc{
+	border-bottom: 1px solid #DBDBDD;
+	padding: 2% 0 2% 16%;
+	
+}
+
+.tbc2{
+	padding: 2% 0 2% 16%;
+}
+
+.tbc a{
+	text-decoration: none;
+}
+
+.tbc2 a{
+	text-decoration: none;
+}
