@@ -109,7 +109,7 @@ body {
 }
 
 .su{
-	background-image: url('pictures/people.jpg');
+	background-image: url('../pictures/people.jpg');
 	background-repeat: no-repeat;
 
 }
