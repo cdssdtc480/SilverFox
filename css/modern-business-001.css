@@ -123,8 +123,8 @@ body {
 
 .regForm{
 	color:#6a6f8c;
-	font:600 16px/18px 'Open Sans',sans-serif
-	background-image: url("pictures/people.jpg");
+	font:600 16px/18px 'Open Sans',sans-serif;
+	background-image: url("../pictures/people.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
